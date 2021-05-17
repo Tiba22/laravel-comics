@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.jumboimg {
+  margin: 0;
+}
+
+.jumboimg img {
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.jumbo {
+  height: auto;
+  background-color: black;
+}
+
+.jumbocomics {
+  width: 70%;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.jumbocomics ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.jumbocomics ul li .box {
+  width: 200px;
+  height: 300px;
+}
+
+.jumbocomics ul li .box .boxImg {
+  height: 200px;
+  width: 200px;
+  border: 1px solid white;
+}
+
+.jumbocomics ul li .box .boxImg img {
+  -o-object-position: top;
+     object-position: top;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
+  width: 200px;
+}
+
+.jumbocomics ul li .box .boxText h3 {
+  color: white;
+  padding-top: 15px;
+  text-transform: uppercase;
+}
+

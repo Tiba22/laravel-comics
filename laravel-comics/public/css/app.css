@@ -327,7 +327,7 @@ footer {
   margin-left: 25px;
 }
 
-.right h4 {
+.containerTopInfo .right h4 {
   text-transform: uppercase;
   text-align: right;
   color: #555555;
@@ -342,6 +342,12 @@ footer {
   background-color: #f6f6f6;
   border-top: 2px solid #e3e3e3;
   padding-top: 30px;
+}
+
+.containerInfoBottom .infoBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .infoBottom {
@@ -362,5 +368,108 @@ footer {
 .subtitle {
   color: #326786;
   font-size: 16px;
+}
+
+.containerLink {
+  flex-basis: 80%;
+}
+
+.containerLink a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #00b0e1;
+}
+
+.artBy {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.writtenBy {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.infoBottom .right {
+  width: 50%;
+}
+
+.infoBottom .right h4 {
+  font-size: 25px;
+  color: #003f76;
+  margin-bottom: 20px;
+}
+
+.infoBottom .right p {
+  width: 120px;
+  display: inline-block;
+}
+
+.infoBottom .right a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #0282f9;
+  font-size: 14px;
+}
+
+.infoBottom .right .subtitle {
+  padding: 10px 0;
+}
+
+.rightSeries,
+.rightOnSaleDate {
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.containerBoxInfoBottom {
+  border-top: 1px solid #e3e3e3;
+  margin-top: 120px;
+}
+
+.boxInfoBottom {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.boxOne,
+.boxTwo,
+.boxThree,
+.boxFour {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(100%/4);
+  padding: 20px;
+}
+
+.boxInfoBottom img {
+  width: 50px;
+}
+
+.boxInfoBottom a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #a8aaac;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.boxOne,
+.boxFour {
+  border-left: 1px solid #e3e3e3;
+  border-right: 1px solid #e3e3e3;
+}
+
+.boxTwo {
+  border-right: 1px solid #e3e3e3;
 }
 

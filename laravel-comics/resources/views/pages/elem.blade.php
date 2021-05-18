@@ -60,11 +60,11 @@
             <h4>
               Talent
             </h4>
-            <div>
+            <div class="artBy">
               <span class="subtitle">
                 Art by:
               </span>
-              <div>
+              <div class="containerLink">
                 @foreach ($elem['artists'] as $a)
                   @if ($loop->last)
                     <a href="">
@@ -79,11 +79,11 @@
                 @endforeach
               </div>
             </div>
-            <div>
-              <span>
+            <div class="writtenBy">
+              <span class="subtitle">
                 Written by:
               </span>
-              <div>
+              <div class="containerLink">
                 @foreach ($elem['writers'] as $a)
                   @if ($loop->last)
                     <a href="">
@@ -103,61 +103,61 @@
             <h4>
               Specs
             </h4>
-            <div>
-              <span>
+            <div class="rightSeries">
+              <p class="subtitle">
                 Series:
-              </span>
+              </p>
               <a href="">
                 {{$elem['series']}}
               </a>
             </div>
-            <div>
-              <span>
+            <div class="rightUSPrice">
+              <p class="subtitle">
                 U.S. Price:
-              </span>
+              </p>
               <span>
                 {{$elem['price']}}
               </span>
             </div>
-            <div>
-              <span>
+            <div class="rightOnSaleDate">
+              <p class="subtitle">
                 On Sale Date:
-              </span>
+              </p>
               <span>
                 {{$elem['sale_date']}}
               </span>
             </div>
           </div>
         </div>
-        <div>
-          <div>
-            <div>
+        <div class="containerBoxInfoBottom">
+          <div class="boxInfoBottom">
+            <div class="boxOne">
               <a href="">
                 digital comics
               </a>
-              <img src="" alt="">
+              <img src="{{ asset('/storage/assets/icons-1.png') }}" alt="">
             </div>
-            <div>
+            <div class="boxTwo">
               <a href="">
                 shop dc
               </a>
-              <img src="" alt="">
+              <img src="{{ asset('/storage/assets/icons-4.png') }}" alt="">
             </div>
-            <div>
+            <div class="boxThree">
               <a href="">
                 comic shop locator
               </a>
-              <img src="" alt="">
+              <img src="{{ asset('/storage/assets/icons-3.png') }}" alt="">
             </div>
-            <div>
+            <div class="boxFour">
               <a href="">
                 subscription
               </a>
-              <img src="" alt="">
+              <img src="{{ asset('/storage/assets/icons-2.png') }}" alt="">
             </div>
           </div>
         </div>
       </div>
     </main>
-  </div>
-@endsection
+
+  @endsection
